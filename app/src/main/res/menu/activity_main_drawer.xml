@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_bulletin_board"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bulletin Board" />
+        <item
+            android:id="@+id/nav_menu_and_dishes"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Menu &amp; Dishes" />
+        <item
+            android:id="@+id/nav_order_list"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Order List" />
+
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Booking" />
+
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Todo" />
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Customers" />
+        
+    </group>
+
+</menu>
